@@ -12,6 +12,9 @@ public class UsBMI implements UnitsInterface{
 		return this.bmi;
 	}
 	
+	/**
+	 * A US mértékegységnél kell konstans, amilve meg kell szorozni a súlyt. Ezt a szorzót a usMultiplier konstans tartalmazza
+	 */
 	public void setBMI(double weight, double height){
 		this.bmi = usMultiplier*weight/(height*height); // számolja a US bmi-t
 	}
