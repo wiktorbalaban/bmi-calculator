@@ -28,4 +28,14 @@
       <version>2.0.1</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <version>1.4.11</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
